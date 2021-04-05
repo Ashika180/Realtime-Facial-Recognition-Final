@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title> Realtime Facial Recognition </title>
+
+        <link rel= "stylesheet" href= "style.css">
+
+        <script src="function.js"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script><link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lobster&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <center>
+<h1 class= "btn btn-primary" id= "head1"> Realtime Facial Recognition </h1>
+<hr>
+
+<div id= "color">
+    <label style= "font-family: comic sans ms; font-size: 25px; color: rgb(255, 255, 255);"> Model Is Trained On :  </label>
+    <h3 id= "margin" class= "btn btn-warning"> Dad | Mom | Me | Sister</h3>
+</div>
+
+<br>
+
+<div class= "main_div">
+
+    <br><br>
+
+    <p class= "btn btn-danger result_para_tag"> Person : 
+        <span id= "result_object_name" class= "btn btn-success">  </span>
+        </p>
+      
+      
+        <p class= "btn btn-danger result_para_tag1"> Accuracy : 
+          <span id= "result_accuracy_tag" class= "btn btn-success">  </span>
+        </p>
+</div>
+
+
+        
+        </center>
+
+        <div class= "footer">
+            <label id= "footer"> Created By Ashika Karuppaiah </label>
+        </div>
+    </body>
+    
+</html>

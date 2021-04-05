@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(to top, #2D2926FF, #E94B3CFF)
+}
+
+#head1{
+    font-size: 40px !important;
+    font-family: 'Lobster', cursive;
+}
+
+#color{
+     border-radius: 20px;
+     background-color: rgb(0, 68, 85);
+     width: 500px;
+     height: 100px;
+     margin-left: 100px;
+     margin-left: 1%;
+}
+
+#margin{
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.footer{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    line-height: 2;
+}
+
+#footer{
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+}
+
+.main_div{
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 10px !important;
+}
+
+.note{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(255, 0, 43);
+    color: black; 
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px orange;
+}
+
+.result_para_tag{
+    font-family: 'Lobster', cursive;
+    font-size: 18px !important;
+    color: black; 
+    border-radius: 5px;
+}
+
+.result_para_tag1{
+    font-family: 'Lobster', cursive;
+    font-size: 18px !important;
+    color: black; 
+    border-radius: 5px;
+}
+
+canvas{
+    border: solid black 3px;
+    box-shadow: 5px 5px 18px black;
+}
+
+@keyframes colors {
+    0% {background-color: #FFDDE2FF;}
+    25% {background-color: #FAA094FF;}
+    50% {background-color: #9ED9CCFF;}
+    100% {background-color: #008C76FF;}
+}
+
+#result_accuracy_tag, #result_object_name{
+    font-family: 'Fjalla One', sans-serif;
+}
